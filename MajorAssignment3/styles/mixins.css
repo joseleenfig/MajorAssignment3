@@ -1,3 +1,10 @@
+ul:nth-child(3n + 1) {
+  background-color: #dce2e9; }
 
+ul:nth-child(3n + 2) {
+  background-color: #ebeff3; }
+
+ul:nth-child(3n + 3) {
+  background-color: #fbfcfc; }
 
 /*# sourceMappingURL=mixins.css.map */
