@@ -1,0 +1,37 @@
+$bgcolor: gold;
+@media screen and (max-width: 600px){
+    /*grid 1 col*/
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+        background-color: $myColor;
+        padding: 10px;
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+      /*grid 2 col*/
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: $myColor;
+        padding: 10px;
+        grid-gap: 10px;
+    }
+}
+@media screen and (min-width: 800px) {
+    /*grid 2 col*/
+  .grid{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      background-color: $myColor;
+      padding: 10px;
+      grid-gap: 10px;
+  }
+}
+    /* grid item format*/
+    .grid-item{
+        background-color: bisque;
+        border: 2px fade-out($color: #000000, $amount: 0)
+    }
